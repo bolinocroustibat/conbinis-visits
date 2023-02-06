@@ -1,14 +1,19 @@
 [tool.poetry]
-name = "combinis visits analyzer"
+name = "conbini visits analyzer"
 version = "0.1.0"
 description = ""
-authors = ["Adrien Carpentier <me@adriencarpentier.com>"]
+authors = [{ name = "Adrien Carpentier", email = "me@adriencarpentier.com" }]
+dependencies = [
+    "pandas<1.6.0,>=1.5.3",
+    "tqdm<4.65.0,>=4.64.1",
+]
+requires-python = ">=3.9,<3.11"
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pandas = "^1.5.3"
 tqdm = "^4.64.1"
-
 
 [build-system]
 requires = ["poetry-core"]
