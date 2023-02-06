@@ -1,0 +1,30 @@
+# Project specific
+*.json
+
+# Direnv
+.envrc
+
+# Python
+*.pyc
+.Python
+__pycache__
+.pytest_cache
+venv/
+.venv/
+
+# VS Code
+/.vscode/
+/.vs/
+
+# MacOS
+**/.DS_Store
+
+# PDM
+__pypackages__
+.pdm.toml
+
+# Test coverage
+.coverage
+
+# Ruff
+.ruff_cache/
