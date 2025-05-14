@@ -19,12 +19,12 @@ venv/
 # MacOS
 **/.DS_Store
 
-# PDM
-__pypackages__
-.pdm.toml
-
 # Test coverage
 .coverage
 
 # Ruff
 .ruff_cache/
+
+# Environment variables
+.env
+.envrc
